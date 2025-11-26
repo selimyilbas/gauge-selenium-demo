@@ -26,7 +26,7 @@ ChromeDriver
 🎯 Purpose of the Project
 
 
-Writing readable, human friendly tests using Gauge
+Writing readable, human friendly automations using Gauge
 
 Implementing reusable Selenium step definitions
 
