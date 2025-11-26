@@ -13,3 +13,21 @@ gauge_bin
 # Gauge - java class target dir
 target
 
+
+# OS
+.DS_Store
+
+# IDE
+.idea/
+gauge-test.iml
+
+# Build / tool outputs
+out/
+target/
+logs/
+reports/
+.gauge/
+
+# Local libs
+libs/
+
