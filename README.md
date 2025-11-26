@@ -1,33 +1,35 @@
-## About this template
+Gauge + Selenium Automation Demo
+Hepsiburada UI Test Automation – Java Gauge Project
 
-This is a template to get started with a Gauge project that uses Selenium as the driver to interact with a web browser.
+This project demonstrates a complete UI test automation workflow using Gauge, Selenium WebDriver, and Java.
+The test scenario automates searching for a product on Hepsiburada, validating the result, adding the item to the cart, and navigating to checkout.
 
-## Installing this template
+The project follows a clean and maintainable structure using a JSON-based Locator Repository Pattern, making the locators dynamic, centralised, and easy to maintain.
 
-    gauge --install java_maven_selenium
+🔧 Technologies Used
 
-## Building on top of this template
+Java 17+
 
-### Defining Specifications
+Gauge Framework
 
-* This template includes a sample specification which opens up a browser and navigates to `Get Started` page of Gauge.
-* Add more specifications on top of sample specification.
+Selenium WebDriver
 
-Read more about [Specifications](http://getgauge.io/documentation/user/current/specifications/README.html)
+WebDriverManager
 
-### Writing the implementations
+Jackson Databind (JSON → Java mapping)
 
-This is where the java implementation of the steps would be implemented. Since this is a Selenium based project, the java implementation would invoke Selenium APIs as required.
+ChromeDriver
 
-_We recommend considering modelling your tests using the [Page Object](https://github.com/SeleniumHQ/selenium/wiki/PageObjects) pattern, and the [Webdriver support](https://github.com/SeleniumHQ/selenium/wiki/PageFactory) for creating them._
 
-- Note that every Gauge step implementation is annotated with a `Step` attribute that takes the Step text pattern as a parameter.
-Read more about [Step implementations in Java](http://getgauge.io/documentation/user/current/test_code/java/java.html)
 
-### Execution
 
-* You can execute the specification as:
+🎯 Purpose of the Project
 
-```
-mvn test
-```
+
+Writing readable, human friendly tests using Gauge
+
+Implementing reusable Selenium step definitions
+
+Managing locators with a JSON repository
+
+Handling waits, popups, and dynamic web elements
