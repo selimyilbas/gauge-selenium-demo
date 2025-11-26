@@ -1,0 +1,27 @@
+[
+  {
+    "key": "txt_searchbox",
+    "value": "[data-test-id='search-bar-input']",
+    "type": "css"
+  },
+  {
+    "key": "label_header",
+    "value": "[data-test-id='header-h1']",
+    "type": "css"
+  },
+  {
+    "key": "label_FirstProductPrice",
+    "value": "div[data-test-id^='final-price']",
+    "type": "css"
+  },
+  {
+    "key": "btn_Card",
+    "value": "shoppingCart",
+    "type": "id"
+  },
+  {
+    "key": "btn_CompleteShopping",
+    "value": "continue_step_btn",
+    "type": "id"
+  }
+]
