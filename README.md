@@ -1,5 +1,5 @@
 Gauge + Selenium Automation Demo
-Hepsiburada UI Test Automation – Java Gauge Project
+Hepsiburada UI Automation – Java Gauge Homework
 
 This project demonstrates a complete UI test automation workflow using Gauge, Selenium WebDriver, and Java.
 The test scenario automates searching for a product on Hepsiburada, validating the result, adding the item to the cart, and navigating to checkout.
